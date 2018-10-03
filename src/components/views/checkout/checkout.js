@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import Checkout from './checkout.css';
+import './checkout.css';
+
 
 class Checkout extends Component {
   render() {
     return (
-      <div className="App">
-
-
+      <div className="Checkout">
       </div>
     );
   }
