@@ -3,7 +3,7 @@ const products = [
     id: 1,
     name: "Dodecahedron",
     price: 2.95,
-    description: "Some gems have hidden qualities beyonf their lustre, beyond their shine... Dodecahredon is one of those gems",
+    description: "Some gems have hidden qualities beyond their lustre, beyond their shine... Dodecahredon is one of those gems",
     imagePath: "../../static/img/gem-01.gif",
     inventory: 10,
     reviews: [
@@ -27,7 +27,7 @@ const products = [
     id: 2,
     name: "Pentagonal",
     price: 5.95,
-    description: "The origin of the pentagonal gem is unknown, hence it's low value",
+    description: "The origin of the pentagonal gem is unknown.",
     imagePath: "./static/img/gem-02.gif",
     inventory: 0,
     reviews: [
