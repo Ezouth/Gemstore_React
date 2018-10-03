@@ -6,6 +6,7 @@ class Checkout extends Component {
   render() {
     return (
       <div className="Checkout">
+      <h3> Total: ${this.props.total} </h3>
       </div>
     );
   }
