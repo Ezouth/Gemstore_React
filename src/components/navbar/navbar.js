@@ -9,7 +9,6 @@ class Navbar extends Component {
       <div className="Navbar">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <NavLink className="navbar-brand" to='/'>Gemstore</NavLink>
-      <a className="navbar-brand" href="#">Navbar</a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -23,7 +22,7 @@ class Navbar extends Component {
             <NavLink className="nav-link" to="/checkout">Checkout</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link disabled" to='/checkout'>Total: $0.00</NavLink>
+            <NavLink className="nav-link disabled" to='/checkout'>Total: ${this.props.total}</NavLink>
           </li>
         </ul>
         <form className="form-inline my-2 my-lg-0">
