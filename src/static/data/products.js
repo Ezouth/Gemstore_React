@@ -27,7 +27,7 @@ const products = [
     id: 2,
     name: "Pentagonal",
     price: 5.95,
-    description: "The origin of the pentagonal gem is unknown.",
+    description: "The origin of the pentagonal gem is unknown. It has a beautiful shine that never fades.",
     imagePath: "./static/img/gem-02.gif",
     inventory: 0,
     reviews: [
@@ -51,7 +51,7 @@ const products = [
     id: 3,
     name: "Hexagonal",
     price: 12.95,
-    description: "The hexagonal gem is one of our best sellers",
+    description: "The hexagonal gem is one of our best sellers. Enjoy it while it is in stock - this price won't last!",
     imagePath: "./static/img/gem-03.gif",
     inventory: 10,
     reviews: [
